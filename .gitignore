@@ -1,2 +1,6 @@
 __pycache__
 .idea
+*.pyc
+cu_courses.egg-info
+build
+dist
