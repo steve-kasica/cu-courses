@@ -7,7 +7,7 @@ written in Python 3.
 
 1. Download directly from GitHub with `git clone https://github.com/stvkas/cu-courses`
 2. Enter the newly created directory with `cd cu-courses`
-3. Run `python3 setup.py install`
+3. Run `make install`
 
 ## Usage
 Run `cu-courses --help` for usage
