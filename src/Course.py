@@ -88,12 +88,9 @@ class Course(dict):
                 reqs = reqs.split(' and ')
                 for i in range(0, len(reqs)):
                     reqs[i] = recurse(reqs[i])
-
-            # base case
-            if 'or' in reqs:
-                reqs = reqs.split(' or ')
             else:
-                reqs = [reqs]
+                # base case
+                reqs = reqs.split(' or ')
 
             return reqs
 
